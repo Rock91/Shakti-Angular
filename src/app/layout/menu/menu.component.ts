@@ -20,5 +20,17 @@ export class MenuComponent implements OnInit {
     if(name == 'manageItems'){
       this.router.navigate(['ManageItemScreen']);
     }
+    else if(name=="CompositeItem"){
+      this.router.navigate(['CompositeItem'])
+    }
+    else if(name=="ItemGroups"){
+      this.router.navigate(['ItemGroups'])
+    }
+    else if(name=="Transfer"){
+      this.router.navigate(['Transfer'])
+    }
+    else if(name=="wearhouse"){
+      this.router.navigate(['Warehouses'])
+    }
   }
 }

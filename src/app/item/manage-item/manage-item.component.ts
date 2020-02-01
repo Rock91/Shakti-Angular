@@ -16,7 +16,7 @@ declare var $: any;
 export class ManageItemComponent implements OnInit {
   
   actionType = 'normal'
-  manageItemList :any = [];
+  manageItemList :any = []; 
   manageItemEditData :any = [];
   id = { '_id': '' };
   submitted = false;

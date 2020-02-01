@@ -16,9 +16,9 @@ import { CompositeItemComponent } from './item/composite-item/composite-item.com
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { MenuComponent } from './layout/menu/menu.component';
-
-
-
+import { NewGroupsComponent } from './new-groups/new-groups.component';
+import { TransferComponent } from './transfer/transfer.component';
+import { WarehousesComponent } from './warehouses/warehouses.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,10 @@ import { MenuComponent } from './layout/menu/menu.component';
     CompositeItemComponent,
     HeaderComponent,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    NewGroupsComponent,
+    TransferComponent,
+    WarehousesComponent
   ],
   imports: [
     BrowserModule,

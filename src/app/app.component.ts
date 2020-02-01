@@ -14,6 +14,6 @@ export class AppComponent {
     var newHost = window.location.host;
     localStorage.setItem('hostUrl',newHost);
     
-    this.router.navigate(['LoginScreen']);
+    // this.router.navigate(['LoginScreen']);
   }
 }

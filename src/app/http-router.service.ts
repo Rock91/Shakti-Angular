@@ -13,18 +13,9 @@ export class HttpRouterService {
   host: any;
   baseUrl: any;
   constructor(private http: HttpClient) {
-    // if (url == 'solopacker-cms-dev.gamewithpals.com') {
-    //   console.log("dev");
-    //   // this.baseUrl = 'http://localhost:7500/admin';
-      
-    // }
-    // if (url == 'cms.solopacker.com') {
-    //   console.log("live")      
-    // }
-    // if (url != 'solopacker-cms-dev.gamewithpals.com' && url != 'cms.solopacker.com') {
-    //   console.log("local")
+ 
       this.baseUrl = 'http://localhost:3006/';  
-    // }
+   
    }
     //for login data
   login(data) { // http://localhost:3006/api/admin/login
