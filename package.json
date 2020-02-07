@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +22,8 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "@angular/cli": "1.4.9",
+    "@angular/compiler-cli": "^4.4.6",
     "@types/jquery": "^3.3.31",
     "angular-alert-module": "^2.0.3",
     "jquery": "^3.4.1",
